@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Maze JS</title>
+</head>
+<body>
+<div id="main">
+  <h2>You are here:</h2>
+  <div id="current-location">
+    <img id="current-location-image"
+         style="width: 500px;
+         border: 1px solid black"
+    />
+  </div>
+  <hr/>
+  <div id="possible-locations">
+    <h2>Where do you want to go?</h2>
+    <div id="path-left-container"
+         style="display: inline-block;
+         border: 1px solid black"
+    >
+      <img id="path-left-image"
+           style="width: 500px"
+      />
+    </div>
+    <div id="path-right-container"
+         style="display: inline-block;
+         border: 1px solid black"
+    >
+      <img id="path-right-image"
+           style="width: 500px"
+      />
+    </div>
+  </div>
+</div>
+<script type="module" src="src/gameController.js"></script>
+</body>
+</html>
